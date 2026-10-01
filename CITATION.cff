@@ -1,29 +1,13 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "CoSegVCF: pedigree-aware inheritance-model filtering of VCF and gVCF files"
-version: 1.0.0
-date-released: 2026-09-30
-license: MIT
-repository-code: "https://github.com/OWNER/cosegvcf"
+message: "Se utilizzi questo software, citalo come indicato di seguito."
+title: "cosegvcf"
+type: software
 authors:
-  - family-names: Spartano
-    given-names: Serena
-    affiliation: "Università Cattolica del Sacro Cuore, Rome, Italy"
-  - family-names: Falqui
-    given-names: Salvatore
-    affiliation: "Università Cattolica del Sacro Cuore, Rome, Italy"
-  - family-names: Novelli
-    given-names: Agnese
-    affiliation: "Università Cattolica del Sacro Cuore, Rome, Italy"
-  - family-names: Abiusi
-    given-names: Emanuela
-    affiliation: "Università Cattolica del Sacro Cuore, Rome, Italy"
-  - family-names: Tiziano
-    given-names: Francesco Danilo
-    affiliation: "Università Cattolica del Sacro Cuore, Rome, Italy"
-keywords:
-  - VCF
-  - pedigree
-  - inheritance model
-  - exome sequencing
-  - Mendelian disease
+  - family-names: "Spartano"
+    given-names: "Serena"
+version: "1.0.0"
+doi: "10.5281/zenodo.23078367"
+date-released: "2026-10-01"
+license: "MIT"
+repository-code: "https://github.com/Sparty87/cosegvcf"
+abstract: "CoSegVCF: pedigree-aware inheritance-model filtering of VCF and gVCF files"

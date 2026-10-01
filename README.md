@@ -1,5 +1,7 @@
 # CoSegVCF
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23078366.svg)](https://doi.org/10.5281/zenodo.23078366)
+
 **Pedigree-aware inheritance-model filtering of VCF and gVCF files, with a graphical interface.**
 
 CoSegVCF reads the VCF or gVCF files of the members of a family, lets you describe who is
