@@ -1,0 +1,25 @@
+scenario	condition	n	sensitivity	median_background	q1_background	q3_background	mean_records_per_sample	mean_rare_per_sample	median_seconds
+AD, 3 generations (7)	error-free	50	1.000	24.5	21.75	29.0	18989	442	1.47
+AD, 3 generations (7)	noisy	50	0.960	25.5	21.75	29.0	19324	757	1.48
+AD, 3 generations (7)	noisy, missing ignored	50	0.980	26.0	23.75	30.25	19315	757	1.44
+AR hom, trio	error-free	50	1.000	1.0	0.0	1.0	18928	446	0.82
+AR hom, trio	noisy	50	0.900	1.0	0.0	2.0	19301	755	0.82
+AR hom, trio	noisy, missing ignored	50	1.000	1.0	0.0	1.0	19272	755	0.81
+AR hom, quartet	error-free	50	1.000	1.0	0.0	1.0	19006	453	0.94
+AR hom, quartet	noisy	50	0.900	0.0	0.0	1.0	19346	758	0.96
+AR hom, quartet	noisy, missing ignored	50	0.980	1.0	0.0	1.0	19322	758	0.93
+Comp. het, trio	error-free	50	1.000	0.0	0.0	2.0	18976	448	0.78
+Comp. het, trio	noisy	50	0.920	0.0	0.0	2.0	19277	760	0.79
+Comp. het, trio	noisy, missing ignored	50	0.960	2.0	0.0	4.0	19317	758	0.78
+Comp. het, quartet	error-free	50	1.000	0.0	0.0	2.0	18976	447	0.92
+Comp. het, quartet	noisy	50	0.860	0.0	0.0	2.0	19344	761	0.96
+Comp. het, quartet	noisy, missing ignored	50	0.960	2.0	0.0	2.0	19351	755	1.00
+De novo, trio	error-free	50	1.000	0.0	0.0	0.0	18969	447	0.80
+De novo, trio	noisy	50	0.980	303.0	289.75	319.25	19271	753	0.82
+De novo, trio	noisy, missing ignored	50	1.000	299.5	288.75	315.25	19311	755	0.83
+De novo, quartet	error-free	50	1.000	0.0	0.0	0.0	18990	447	0.96
+De novo, quartet	noisy	50	0.960	298.0	290.75	308.25	19328	755	0.97
+De novo, quartet	noisy, missing ignored	50	0.980	297.5	284.75	311.0	19338	755	0.95
+XLR, 5 members	error-free	50	1.000	5.0	3.0	6.25	18945	447	1.09
+XLR, 5 members	noisy	50	0.920	3.0	3.0	5.0	19320	750	1.10
+XLR, 5 members	noisy, missing ignored	50	1.000	5.0	3.0	6.0	19336	760	1.07
