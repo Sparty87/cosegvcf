@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "CoSegVCF: pedigree-aware inheritance-model filtering of VCF and gVCF files"
+title: "CoSegVCF: a free graphical tool for inheritance-model filtering and shared-segment mapping in family exomes"
 version: 1.1.0
 date-released: 2026-10-05
 license: MIT
