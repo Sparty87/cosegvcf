@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotation">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count">
+##INFO=<ID=gnomAD_AF,Number=A,Type=Float,Description="gnomAD allele frequency">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype quality">
+##contig=<ID=chr1>
+##contig=<ID=chrX>
+##contig=<ID=chrM>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SISTER
+chr1	100	.	C	T	50	PASS	ANN=A|missense_variant|MODERATE|GENEA|x;gnomAD_AF=0.001	GT:DP:GQ	0/1:30:60
+chr1	300	.	G	C	50	PASS	ANN=A|missense_variant|MODERATE|GENEB|x	GT:DP:GQ	0/1:30:60
+chrM	150	.	C	T	50	PASS	.	GT:DP:GQ	1:30:60

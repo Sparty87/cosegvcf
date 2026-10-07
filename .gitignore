@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# analysis outputs
+*_output.vcf*
+cosegvcf_output.*
+benchmark/results/results_*.tsv
+benchmark/log_*.txt
+examples/out*

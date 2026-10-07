@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosegvcf"
+dynamic = ["version"]
+description = "Pedigree-aware inheritance-model filtering of VCF and gVCF files, with a graphical interface"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Serena Spartano", email = "serena.spartano@unicatt.it" },
+  { name = "Salvatore Falqui" },
+  { name = "Agnese Novelli" },
+  { name = "Emanuela Abiusi" },
+  { name = "Francesco Danilo Tiziano" },
+]
+keywords = ["VCF", "gVCF", "pedigree", "segregation", "inheritance", "exome", "Mendelian"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  "Environment :: X11 Applications",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+cosegvcf = "cosegvcf.cli:main"
+
+[project.gui-scripts]
+cosegvcf-gui = "cosegvcf.gui:main"
+
+[project.urls]
+Homepage = "https://github.com/OWNER/cosegvcf"
+Issues = "https://github.com/OWNER/cosegvcf/issues"
+
+[tool.setuptools]
+packages = ["cosegvcf"]
+
+[tool.setuptools.dynamic]
+version = { attr = "cosegvcf.__version__" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
